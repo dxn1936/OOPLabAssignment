@@ -12,7 +12,7 @@ public class GoalKeeper extends Player {
 	}
 
 	public Boolean getHasGlowes() {
-		return hasGlowes;
+		return this.hasGlowes;
 	}
 
 	public void setHasGlowes(Boolean hasGlowes) {
