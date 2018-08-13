@@ -13,6 +13,7 @@ Staff::Staff(string firstName)
 }
 Staff::Staff(string firstName, string lastName)
 {
+    cout << "Staff object created with 2 params" << endl;
     this->firstName = firstName;
     this->lastName = lastName;
 }

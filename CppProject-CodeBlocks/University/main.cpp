@@ -29,11 +29,21 @@ int main()
     NonTeachingStaff *ns1 = new NonTeachingStaff();
     delete ns1;
 */
+/*    NonTeachingStaff ns5;
+    cout << ns5.getFullName() << endl;
+    //cout << ns5.getFirstName() << endl;
+*/
 
-    NonTeachingStaff *ns4 = new NonTeachingStaff();
+/*    NonTeachingStaff *ns4 = new NonTeachingStaff();
+    //cout << ns4->getFullName() << endl;
     Staff *s4 = (Staff*)ns4;
+    cout << s4->getFullName() << endl;
     delete s4;
+*/
 
+    NonTeachingStaff *ns6 = new NonTeachingStaff("hello", "bye", 9);
+    Staff *s6 = (Staff*)ns6;
+    cout << s6->getFullName() << endl;
 
     return 0;
 }

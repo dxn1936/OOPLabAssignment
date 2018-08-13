@@ -5,12 +5,13 @@
 #include"Staff.h"
 #include"Pay.h"
 
-class NonTeachingStaff: protected Staff, public Pay {
+class NonTeachingStaff: protected Staff {
     protected:
         int noOfWorkingHours;
     public:
         NonTeachingStaff();
         ~NonTeachingStaff();
+        NonTeachingStaff(string firstName, string lastName, int noOfWorkingHours);
 
     protected:
 
