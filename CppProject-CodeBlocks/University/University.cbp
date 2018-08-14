@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Employee.h" />
+		<Unit filename="include/NonTeachingStaff.h" />
+		<Unit filename="include/Pay.h" />
+		<Unit filename="include/Staff.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Employee.cpp" />
+		<Unit filename="src/NonTeachingStaff.cpp" />
+		<Unit filename="src/Pay.cpp" />
+		<Unit filename="src/Staff.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

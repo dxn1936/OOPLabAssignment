@@ -1,10 +1,10 @@
 #include <iostream>
 #include"Staff.h"
 #include"NonTeachingStaff.h"
+
 using namespace std;
 
-int main()
-{
+int main() {
     cout << "-UNIVERSITY-" << endl;
 
 //    Staff s1("Mario", "Lee");
