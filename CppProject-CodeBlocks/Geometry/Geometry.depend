@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1534414011 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/main.cpp
+	<iostream>
+	"Numeral.h"
+
+1534408611 /home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/include/Rectangle.h
+	<iostream>
+	<stddef.h>
+
+1534401960 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/src/Edge.cpp
+	"Edge.h"
+
+1534404067 /home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/include/Edge.h
+	<stddef.h>
+
+1534408602 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/src/Rectangle.cpp
+	"Rectangle.h"
+
+1534411538 /home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/include/Numeral.h
+	<iostream>
+
+1534408570 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/src/Numeral.cpp
+	"Numeral.h"
+

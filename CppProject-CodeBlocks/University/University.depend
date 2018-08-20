@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1534244150 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/src/Staff.cpp
+	"Staff.h"
+
+1534244150 /home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/include/Staff.h
+	<iostream>
+	<string>
+
+1534400479 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/src/NonTeachingStaff.cpp
+	"NonTeachingStaff.h"
+	"Staff.h"
+
+1534400466 /home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/include/NonTeachingStaff.h
+	<iostream>
+	"Staff.h"
+	"Pay.h"
+
+1534400524 /home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/include/Pay.h
+	<iostream>
+
+1534399830 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/src/Pay.cpp
+	"Pay.h"
+
+1534400294 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/University/main.cpp
+	<iostream>
+	"Staff.h"
+	"NonTeachingStaff.h"
+
