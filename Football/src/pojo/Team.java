@@ -1,8 +1,9 @@
 package pojo;
 
-public class Team {
+public class Team implements Cloneable {
 	private Player players[];
 	private Boolean homeJersey;
+	private String teamName;
 	
 	public void addPlayer(Player player) {
 		int i = 0;
@@ -11,15 +12,34 @@ public class Team {
 		}
 		if(i < players.length) {
 			players[i] = player;
-			System.out.println("player is added");
+			System.out.println(player.getFullName() + " is added to " + teamName);
 		} else {
 			System.out.println("team is full");
 		}
 	}
 	
-	public Team() {
+	public void addPlayer(String name) {
+		addPlayer(new Player(name, 0));
+	}
+	
+	public void printPlayers() {
+		int i = 0;
+		System.out.println("TEAM = " + teamName);
+		while(i < players.length && players[i] instanceof Player) {
+			System.out.println("(" + (i+1) + ") " + players[i].getFullName());
+			i++;
+		}
+	}
+	
+	@Override
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+	
+	public Team(String teamName) {
 		players = new Player[55];
 		homeJersey = true;
+		this.teamName = teamName;
 	}
 
 	public Player[] getPlayers() {
@@ -36,6 +56,14 @@ public class Team {
 
 	public void setHomeJersey(Boolean homeJersey) {
 		this.homeJersey = homeJersey;
+	}
+
+	public String getTeamName() {
+		return teamName;
+	}
+
+	public void setTeamName(String teamName) {
+		this.teamName = teamName;
 	}
 	
 }

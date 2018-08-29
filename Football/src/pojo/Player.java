@@ -1,8 +1,13 @@
 package pojo;
 
-public class Player {
+public class Player implements Cloneable {
 	private String fullName;
 	private Integer jerseyNumber;
+	
+	@Override
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
 	
 	public void kickBall(Ball ball) {
 		System.out.println(fullName + " kicked " + (ball != null ? "ball" : "air"));
