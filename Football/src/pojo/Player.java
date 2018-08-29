@@ -4,8 +4,8 @@ public class Player {
 	private String fullName;
 	private Integer jerseyNumber;
 	
-	public void kickBall() {
-		System.out.println("kick");
+	public void kickBall(Ball ball) {
+		System.out.println(fullName + " kicked " + (ball != null ? "ball" : "air"));
 	}
 	
 	public Player() {
