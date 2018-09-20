@@ -1,9 +1,13 @@
 package pojo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Team implements Cloneable {
 	private Player players[];
 	private Boolean homeJersey;
 	private String teamName;
+	private List<String> playerList;
 	
 	public void addPlayer(Player player) {
 		int i = 0;
@@ -40,6 +44,7 @@ public class Team implements Cloneable {
 		players = new Player[55];
 		homeJersey = true;
 		this.teamName = teamName;
+		this.playerList = new ArrayList();
 	}
 
 	public Player[] getPlayers() {

@@ -15,7 +15,7 @@ public class ContractTeacher extends TeachingStaff implements DailyWage, Schedul
 	@Override
 	public void calculateDailyWage() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("calculating daily wage");
 	}
 
 	@Override

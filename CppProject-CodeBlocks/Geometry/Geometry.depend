@@ -22,3 +22,33 @@
 1534408570 source:/home/nanu/github.com-jarretfernandes/OOPLabAssignment/CppProject-CodeBlocks/Geometry/src/Numeral.cpp
 	"Numeral.h"
 
+1534749770 source:d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\main.cpp
+	<iostream>
+	"Numeral.h"
+
+1534749770 d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\include\numeral.h
+	<iostream>
+
+1534749770 source:d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\src\complexnumber.cpp
+	"ComplexNumber.h"
+
+1534749770 d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\include\complexnumber.h
+	<iostream>
+	<stddef.h>
+
+1534749770 source:d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\src\edge.cpp
+	"Edge.h"
+
+1534749770 d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\include\edge.h
+	<stddef.h>
+
+1534749770 source:d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\src\numeral.cpp
+	"Numeral.h"
+
+1534749770 source:d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\src\rectangle.cpp
+	"Rectangle.h"
+
+1534749770 d:\github.com\ooplabassignment\cppproject-codeblocks\geometry\include\rectangle.h
+	<iostream>
+	<stddef.h>
+

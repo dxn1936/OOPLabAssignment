@@ -23,4 +23,7 @@ public class BubbleSort {
 		}
 		System.out.println();
 	}
+	public BubbleSort(String name, String date) {
+		
+	}
 }

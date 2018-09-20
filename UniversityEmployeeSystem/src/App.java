@@ -22,6 +22,9 @@ public class App {
 		
 		ContractTeacher staff2 = new ContractTeacher();
 		staff2.calculatePay();
+		
+		ContractTeacher staff3 = (ContractTeacher) staff1;
+		staff3.calculateDailyWage();
 	}
 
 }
